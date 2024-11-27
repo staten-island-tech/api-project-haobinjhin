@@ -2,3 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+html,body{
+    margin: 2px;
+    padding: 0px;
+}
+
+.card{
+    border: black 2px;
+}
+
+.box{
+    display: flex;
+    flex: 20%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px;   
+}
