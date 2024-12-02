@@ -6,6 +6,7 @@
   <link rel="icon" type="image/svg+xml" href="/vite.svg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Vite App</title>
+  <link href="dist/output.css" rel="stylesheet">
   <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
   
 </head>
@@ -13,16 +14,17 @@
 <body>
 
   <div class="buttonbox">
-    <button class ="btn w-64 rounded-full" id = 'northamerica'>North America</button>
-    <button class ="btn w-64 rounded-full" id = 'southamerica'>South America</button>
-    <button class ="btn w-64 rounded-full" id="europe">Europe</button>
-    <button class ="btn w-64 rounded-full" id="asia">Asia</button>
-    <button class ="btn w-64 rounded-full" id="africa">Africa</button>
-    <button class ="btn w-64 rounded-full" id="oceania">Oceania</button>    
+    <button class ="btn w-63 rounded-full" id='northamerica'>North America</button>
+    <button class ="btn w-63 rounded-full" id='southamerica'>South America</button>
+    <button class ="btn w-63 rounded-full" id="europe">Europe</button>
+    <button class ="btn w-63 rounded-full" id="asia">Asia</button>
+    <button class ="btn w-63 rounded-full" id="africa">Africa</button>
+    <button class ="btn w-63 rounded-full" id="oceania">Oceania</button>    
+    <button class ="btn w-63 rounded-full" id="refresh">refresh</button>
   </div>
+  <br>
 
-
-  <div class="cardbox">
+  <div class="grid grid-cols-4 gap-4" id="cardbox">
 
     <script type="module" src="JS/main.js"></script>
   </div>

@@ -6,18 +6,18 @@ html,body{
     margin: 5px;
     padding: 5px;
     box-sizing: border-box;
+    background-color: rgb(105, 102, 102) ;
 }
 
-.card{
-    width: 200px;
-    padding: 5px;
+#card{
+    background-color: white;
+    height: 300px;
+    width: auto;
+    text-align: center;
+    align-items: center;
 }
 
-.cardbox{
-    display: flex;
-    flex: 20%;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 10px;   
+.image{
+    height: 200px;
+    width: auto;
 }
