@@ -3,15 +3,17 @@
 @tailwind utilities;
 
 html,body{
-    margin: 2px;
-    padding: 0px;
+    margin: 5px;
+    padding: 5px;
+    box-sizing: border-box;
 }
 
 .card{
-    border: black 2px;
+    width: 200px;
+    padding: 5px;
 }
 
-.box{
+.cardbox{
     display: flex;
     flex: 20%;
     flex-direction: row;
