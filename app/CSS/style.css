@@ -15,7 +15,10 @@ html,body{
     width: auto;
     text-align: center;
     align-items: center;
+    padding: 10px;
 }
+
+
 
 .image{
     height: 200px;

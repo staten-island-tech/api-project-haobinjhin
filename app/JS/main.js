@@ -57,7 +57,7 @@ async function filtercountries(continent){
 
 function makecard(name, pic){
     DOM.cardbox.insertAdjacentHTML("beforeend", 
-        `<div class = "border-4 border-neutral-950 p4 " id ="card"> 
+        `<div class = "border-4 border-neutral-950 p4" id ="card"> 
         <h1 class = 'size-[32rem]' id = "name">${name}</h1>
         <img src="${pic}" alt="${name}" class = "image">
         </div>`)
