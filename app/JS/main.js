@@ -64,9 +64,7 @@ function makecard(name, pic){
 
 }
 
-setTimeout(() => {
-    makeCard("Sample Card", "https://picsum.photos/200/300");
-}, 1000);
+
 
 
 DOM.nabtn.addEventListener("click", () => filtercountries("north america"));

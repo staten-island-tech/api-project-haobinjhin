@@ -12,15 +12,60 @@ html,body{
 #card{
     background-color: white;
     height: 300px;
-    width: auto;
+    width: 400px;
     text-align: center;
     align-items: center;
     padding: 10px;
 }
 
-
+.cardbox{
+    display: flex;
+    flex: 20%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px;
+    gap: 20px;
+}
 
 .image{
     height: 200px;
     width: auto;
 }
+
+
+@media screen and (max-width: 800px) {
+    .cardbox {
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+  
+    #card {
+        flex-direction: column;
+        margin: 10px;
+        flex: 40%;
+    }
+  
+    .image {
+        height:200px ;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .cardbox {
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+  
+    #card {
+        flex-direction: column;
+        margin: 10px;
+        flex: 100%;
+    }
+  
+    .image {
+        height: 200px;
+    }
+  }
